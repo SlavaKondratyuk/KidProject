@@ -11,7 +11,6 @@ let changeWhatIDo = function () {
 document.querySelector('#whoIAm').addEventListener('change', changeWhatIDo);
 
 let changeAboutMe = function () {
-
     if(document.querySelector('#whatDo').value.length != 0){
         document.querySelector('p').textContent = document.querySelector('#whatDo').value;
     } else {

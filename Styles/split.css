@@ -160,7 +160,9 @@ body.page-template-page-fullsingle-split {
       margin-bottom: auto; }
       @media (max-width: 1200px) {
         .fs-split .split-content .split-content-vertically-center {
-          padding: 60px; } }
+          padding: 60px;
+          width: 100%;
+        } }
       @media (max-width: 800px) {
         .fs-split .split-content .split-content-vertically-center {
           padding: 40px; } }
